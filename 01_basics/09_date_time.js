@@ -15,11 +15,11 @@ let dateinstring= new Date("01-14-2023")
 console.log(dateinstring.toLocaleString());
 
 let myTimeStamp=Date.now()
-console.log(myTimeStamp)
-console.log(dateinstring.getTime())
+console.log(myTimeStamp) //in milliseconds
+console.log(dateinstring.getTime()) 
 
 console.log(Date.now())
-console.log(Math.floor(Date.now()/1000));
+console.log(Math.floor(Date.now()/1000)); //converting to milliseconds
 
 let newDate= new Date()
 console.log(newDate);

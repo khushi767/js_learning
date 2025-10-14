@@ -1,9 +1,12 @@
 /*
 two types of datatypes: primitive and non primitive or referenece type
 primitive: 7types
+primitive: call by value
 string,number,boolean,null,undefined,symbol,bigInt
 
-//reference type: array,object,functions
+//reference type or non primitive type: array,objects,functions
+
+JavaScript is a dynamically typed language, which means that variable types are determined at runtime, not compile time.
 */
 
 //use of symbol

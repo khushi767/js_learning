@@ -1,9 +1,12 @@
 const name="khushi"
 const repoCount=50
 console.log(name+ repoCount+ "value");//outdated syntax
+//using backticks-->string interpolation, we can make our own placeholders
 console.log(`hello my name is ${name} and my repo count is ${repoCount}`)
+//other way to declare string using object
 
 const gameName= new String('khushi-kb')
+console.log(gameName[0]);
 console.log(gameName.__proto__);
 console.log(gameName.length);
 console.log(gameName.toUpperCase());

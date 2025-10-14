@@ -6,11 +6,11 @@ console.log(balance.toString().length);
 console.log(balance.toFixed(12));
 
 const otherNumber=23.8966
-console.log(otherNumber.toPrecision(2));
+console.log(otherNumber.toPrecision(4));
 
 const hundreds=1000000
-console.log(hundreds.toLocaleString())
-console.log(hundreds.toLocaleString('en-IN'))
+console.log(hundreds.toLocaleString()) //puts commas in numbers acc to us standard
+console.log(hundreds.toLocaleString('en-IN'))// if we need commas in indian standard
 
 //------------MATHS------------------
 console.log("maths")
@@ -22,7 +22,7 @@ console.log(Math.floor(4.9))
 console.log(Math.min(4,3,6,8))
 console.log(Math.max(4,3,6,8))
 
-console.log(Math.random())
+console.log(Math.random())//will give value bw 0 and 1 only
 console.log(Math.floor(Math.random()*10)+1);
 
 const min=10
