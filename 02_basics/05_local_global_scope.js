@@ -1,3 +1,19 @@
+let a=10;
+const b=20
+var c=30
+console.log(a)
+console.log(b)
+console.log(c)
+//var ka scope loop se bahr aajata hai, so dont use it..AVOID VAR
+//global scope
+//local/BLOCK scope
+//--------------------------------
+
+//nested scope: function ke andr fxn
+//closure used in javascript
+//DOM:how html page is manipulated using javascript
+
+//nested scope
 function one(){
     const username="khushi"
     function two(){

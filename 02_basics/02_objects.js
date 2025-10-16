@@ -1,8 +1,8 @@
 //objects ko declare krne ke do tarike hai : lietrals ki trah ya constructor ki trah
-//concept of singleton, jb constructor se bnate to ik hi object bnta wo singleton hai
+//concept of singleton, jb constructor se bnate to ik hi object bnta wo singleton hai,mtlb ik hi object hai
 //jb literals ki trah declare krte tb singleton nhi bnta hai
 
-//Object.create()=>singleton method
+//Object.create()=>singleton method --constructor method
 //we will talk about object literals here
 ///this is our object
 //decleration of object
@@ -21,10 +21,10 @@ LastLogInDays:["Monday","Tuesday"]
 } 
 //accesing the object
 console.log(JsUser.email)
-console.log(JsUser["email"])
+console.log(JsUser["email"])//two ways to access objects
 console.log(JsUser.mySym)
 console.log(typeof JsUser.mySym)
-console.log(JsUser[mySym])
+console.log(JsUser[mySym]) //syntax for accessing symbol in javascript
 console.log(typeof JsUser[mySym])
 
 
