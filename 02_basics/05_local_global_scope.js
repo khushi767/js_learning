@@ -20,7 +20,7 @@ function one(){
         const website="youtube"
         console.log(username);
     }
-    //console.log(website);
+    //console.log(website); ye ni chlega due to local scope
     two()
 }
 one()
@@ -36,12 +36,17 @@ if(true){
 //console.log(username);
 
 //++++++interesting+++++
+console.log(addone(5))//idhr error in aayega
 function addone(num){
     return num+1
 }
 addone(5)
 
-const addTwo=function(num){
+
+
+//neeche wale mai error aayega
+console.log(addTwo(6))//idhr error aayega kyoki hm decleration se pehle access krne ki koshish krr rhe,kyoki hm declerayion ke sath variable mai hold kr rhe
+const addTwo=function(num){   //it can also be called as expression, hai to fxn hi but variable value store kr rha hai
     return num+2
 }
 addTwo(5)
